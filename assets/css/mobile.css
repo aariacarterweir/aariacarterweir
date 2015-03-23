@@ -71,3 +71,7 @@ ul.presence-list {
 .profile-pic {
     margin-bottom:2em;
 }
+
+.profile-pic img {
+    border-radius:0.25em;
+}
