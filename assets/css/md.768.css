@@ -1,0 +1,10 @@
+/**----------------------------------------------------------------**/
+/* md ≥ 768px|48em	.pure-u-md-* */
+
+.container {
+    max-width:47em;
+}
+
+.profile-pic {
+    margin-bottom:0px;
+}

@@ -1,0 +1,73 @@
+body {
+    background:#f3dff2;
+    text-align:center;
+    
+    color:#734771;
+}
+
+.container {
+    padding:1em;
+    margin:0 auto;
+    text-align: left;
+}
+
+.cuddle {
+    padding:1em;
+    padding-top:0em;
+    padding-bottom:0em;
+}
+
+.cuddle p {
+    line-height:1.25em;
+}
+
+.cuddle p:first-child {
+    margin-top:0px;
+}
+
+a, a:visited {
+    color:#342F34;
+}
+
+a:hover {
+    color:#F597F0;
+}
+
+.container ul li {
+    margin:0 0 0.8em 0;
+}
+
+header {
+    margin-bottom:2em;
+}
+
+.container section.cuddle {
+    margin-bottom:2.5em;
+}
+
+ul.presence-list {
+    padding:0px;
+    margin:0px;
+}
+
+.presence-list li {
+    list-style:none;
+    margin-left:0px;
+    padding-left:0px;
+}
+
+.presence-list li i {
+     min-width:1.5em;
+     text-align: center;
+     color:#734771;
+     text-decoration: none;
+     margin-right:0.25em;
+}
+
+.presence-list li a:hover i {
+    color:#F597F0;   
+}
+
+.profile-pic {
+    margin-bottom:2em;
+}
