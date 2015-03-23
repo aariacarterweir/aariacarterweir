@@ -1,7 +1,7 @@
 body {
     background:#f3dff2;
     text-align:center;
-    
+
     color:#734771;
 }
 
@@ -17,7 +17,7 @@ body {
     padding-bottom:0em;
 }
 
-.cuddle p {
+.cuddle p, .cuddle li {
     line-height:1.25em;
 }
 
@@ -33,16 +33,36 @@ a:hover {
     color:#F597F0;
 }
 
+h2 {
+    font-size:1em;
+    margin-top:0px;
+    margin-bottom:1em;
+}
+
 .container ul li {
     margin:0 0 0.8em 0;
 }
 
 header {
-    margin-bottom:2em;
+    /*padding-bottom:0em;*/
+    margin-bottom:3.5em;
+    padding-bottom:3.5em;
+    border-bottom:1px solid #B9A3B8;
+    
+}
+
+header h1 {
+    margin-bottom:0.9em;
+}
+
+.container footer {
+    margin:0 0em 3.5em 0em;
+    border-top:1px solid #B9A3B8;
+    padding:3.5em 1em 0 1em;
 }
 
 .container section.cuddle {
-    margin-bottom:2.5em;
+    margin-bottom:3.5em;
 }
 
 ul.presence-list {
@@ -53,19 +73,20 @@ ul.presence-list {
 .presence-list li {
     list-style:none;
     margin-left:0px;
-    padding-left:0px;
+    padding-left:2em;
 }
 
 .presence-list li i {
-     min-width:1.5em;
-     text-align: center;
-     color:#734771;
-     text-decoration: none;
-     margin-right:0.25em;
+    margin-left:-2em;
+    margin-right:0.25em;
+    min-width:1.75em;
+    text-align: center;
+    color:#734771;
+    text-decoration: none;
 }
 
 .presence-list li a:hover i {
-    color:#F597F0;   
+    color:#F597F0;
 }
 
 .profile-pic {
@@ -74,4 +95,24 @@ ul.presence-list {
 
 .profile-pic img {
     border-radius:0.25em;
+}
+
+
+.row {
+    border-top:1px solid #B9A3B8;
+    padding-top:3.5em;
+}
+
+.row:first-child {
+    /*padding-top:2.5em;*/
+}
+
+img.dim-out {
+    opacity: 0.25;
+    border-radius:0.5em;
+    transition: all 0.5s ease-in-out;
+}
+
+img.dim-out:hover {
+    opacity:0.9;
 }
