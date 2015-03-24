@@ -4,7 +4,3 @@
 [submodule "view/fe-boilerplate"]
 	path = view/fe-boilerplate
 	url = https://aariacarterweir@bitbucket.org/aariacarterweir/fe-boilerplate.git
-[submodule "view/ipanema-holding"]
-	path = view/ipanema-holding
-	url = https://aariacarterweir@bitbucket.org/aariacarterweir/ipanema-holding.git
-        branch = beta
