@@ -12,3 +12,10 @@
 article .hero {
     height:30em;
 }
+header .beyonce {
+    display:inline;
+}
+
+header .kevin-bacon {
+    display:none;
+}

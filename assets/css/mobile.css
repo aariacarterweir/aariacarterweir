@@ -174,3 +174,11 @@ article .hero a.hero-link {
     width:100%;
     height:140px;
 }
+
+header .beyonce {
+    display: none;
+}
+
+header .kevin-bacon {
+    display:inline;
+}
