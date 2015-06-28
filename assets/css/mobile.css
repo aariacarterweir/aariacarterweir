@@ -5,6 +5,11 @@ body {
     color:#734771;
 }
 
+img {
+    max-width: 100%;
+    height:auto;
+}
+
 .container {
     padding:1em;
     margin:0 auto;
@@ -45,9 +50,9 @@ h2 {
 
 header {
     /*padding-bottom:0em;*/
-    margin-bottom:3.5em;
+    /*margin-bottom:3.5em;*/
     padding-bottom:3.5em;
-    border-bottom:1px solid #B9A3B8;
+    /*border-bottom:1px solid #B9A3B8;*/
     
 }
 
@@ -164,6 +169,14 @@ article .hero a.hero-link {
     background-size:cover;
 }
 
+#equality-splash {
+    background:url(../img/rb-flag.jpg) center center no-repeat;
+}
+
+.backgroundsize #equality-splash {
+    background-size:cover;
+}
+
 #recommended-videos iframe {
     width:100%;
     height:200px;
@@ -180,4 +193,19 @@ header .beyonce {
 
 header .kevin-bacon {
     display:inline;
+}
+
+cite {
+    display:block;
+    margin-top:0.5em;
+    font-weight:normal;
+}
+
+cite:before {
+    content: "- ";
+}
+
+blockquote {
+    margin: 1.2em 1em;
+    font-weight:bold;
 }
