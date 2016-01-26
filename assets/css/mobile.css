@@ -177,7 +177,7 @@ article .hero a.hero-link {
     background-size:cover;
 }
 
-#recommended-videos iframe {
+#recommended-videos iframe, .recommended-videos iframe {
     width:100%;
     height:200px;
 }
